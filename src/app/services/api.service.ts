@@ -9,6 +9,6 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getPosts(): Observable<any> {
-    return this.http.get('https://dummyjson.com/products/category/mens-shoes');
+    return this.http.get('https://dummyjson.com/products/category/home-decoration?limit=10');
   }
 }
