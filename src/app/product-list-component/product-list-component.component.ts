@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../services/api.service';
 import { CommonModule } from '@angular/common';
+import { ToggleFormComponentComponent } from '../toggle-form-component/toggle-form-component.component';
 
 @Component({
   selector: 'app-product-list-component',
-  imports: [ CommonModule],
+  imports: [ CommonModule, ToggleFormComponentComponent],
   templateUrl: './product-list-component.component.html',
   styleUrl: './product-list-component.component.css'
 })
