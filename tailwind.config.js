@@ -7,6 +7,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      screens: {
+      'xxs': { max: '399px' }, // Esto se aplica solo si el ancho es menor a 400px
+    },
       colors: {
         primary: {
           "50": "#eff6ff",
