@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-      'xxs': { max: '399px' }, // Esto se aplica solo si el ancho es menor a 400px
+        'xxs': { max: '399px' },
+        'smx': {min: '400px'}, // Esto se aplica solo si el ancho es mayor a 400px
     },
       colors: {
         primary: {

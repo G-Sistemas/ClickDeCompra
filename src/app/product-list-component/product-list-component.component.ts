@@ -7,7 +7,7 @@ import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 @Component({
   selector: 'app-product-list-component',
-  imports: [ CommonModule, ToggleFormComponentComponent, NgxSkeletonLoaderModule],
+  imports: [ CommonModule, ToggleFormComponentComponent, NgxSkeletonLoaderModule, ComponentSkeletonComponent],
   templateUrl: './product-list-component.component.html',
   styleUrl: './product-list-component.component.css'
 })
